@@ -56,11 +56,11 @@
 
 			<div class="col-md-6">
 
-				<h5 class="heading pt-5 pb-3 text-center">ያግኙን</h5>
+				<h5 class="heading pt-5 pb-3 text-center">Contact Us</h5>
 				<ul class="info">
 
 					<li>
-						<h4 class="text-center">እናት ምግብ ቤት</h4>
+						<h4 class="text-center">Enat Restaurant</h4>
 					</li>
 
 				<li>
