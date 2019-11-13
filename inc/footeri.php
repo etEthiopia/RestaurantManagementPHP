@@ -28,7 +28,7 @@ endif;
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 opening">
                   <ul class="adress">
-                        <span>ቀናት</span>
+                        <span>Days</span>
 
 
                         <?php for($i=0; $i<sizeof($day); $i++): ?>
@@ -40,7 +40,7 @@ endif;
 
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 opening">
                     <ul class="adress">
-                         <span>ሰዓታት</span>
+                         <span>Hours</span>
 
                          <?php for($i=0; $i<sizeof($day); $i++): ?>
                            <li><?= date('H:i', strtotime($open_at[$i])); ?> - <?= date('H:i', strtotime($close_at[$i])); ?></li>
@@ -53,13 +53,13 @@ endif;
 
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                   <ul class="menu">
-                        <span>የጣቢያ ካርታ</span>
+                        <span>Web Map</span>
                         <li>
-                            <a href="index.php">ቤት</a>
+                            <a href="index.php">Home</a>
                         </li>
 
                         <li>
-                            <a href="views/login.php">ግባ</a>
+                            <a href="views/login.php">Log in</a>
                         </li>
                   </ul>
                </div>
