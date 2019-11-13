@@ -22,14 +22,14 @@ require('../controllers/history.php');?>
               </div>
 
     <?php else: ?>
-<h4 class="text-center pb-3">ከዚህ በፊት ቦታ አልያዙም</h4>
+<h4 class="text-center pb-3">Didn't reserve a place before ?</h4>
 <table class="table table-striped text-center">
 <thead class="thead-dark">
 <tr>
 
-<th scope="col">የመመዝገብ ቀን</th>
-<th scope="col">የጠረጴዛ ቁጥር</th>
-<th scope="col">የሰዎች ቁጥር</th>
+<th scope="col">Reservation Date</th>
+<th scope="col">Table Number</th>
+<th scope="col">Number of Attendants</th>
 </tr>
 </thead>
 <tbody>
