@@ -47,20 +47,20 @@
 <div class="form-group">
 
 	<select class="form-control" name="admin" required onchange="yesnoCheck()">
-		<option value="" selected disabled>የተጠቃሚ ምድብ</option>
-		<option value="user">ተጠቃሚ</option>
-		<option id="adminchk" value="admin">አስተዳደር</option>
+		<option value="" selected disabled>Customers Section</option>
+		<option value="user">Customers</option>
+		<option id="adminchk" value="admin">Management</option>
 	</select>
 	  </div>
 
 	<div class="form-group">
-    <input type="password" class="form-control" id="adminpass" name="adminpass" placeholder="የአስተዳዳሪ ኮድ (on ReadMe file)" style="display: none" required>
+    <input type="password" class="form-control" id="adminpass" name="adminpass" placeholder="Manager Code (on ReadMe file)" style="display: none" required>
 		<?php if(isset($error_adminpass)): ?>
 		<div class="alert alert-danger p-2 mt-2" role="alert"><?= $error_adminpass; ?></div>
 		<?php endif; ?>
   </div>
 
-  <button type="submit" name="registration" id="registration" class="submit-btn btn btn-dark d-block mr-auto ml-auto">አስገባ</button>
+  <button type="submit" name="registration" id="registration" class="submit-btn btn btn-dark d-block mr-auto ml-auto">ENTER</button>
 
 
 
