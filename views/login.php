@@ -41,7 +41,7 @@
   </div>
 
 
-  <button type="submit" id="login" name="login" class="submit-btn btn btn-dark d-block mr-auto ml-auto">ማስገባት</button>
+  <button type="submit" id="login" name="login" class="submit-btn btn btn-dark d-block mr-auto ml-auto">LOG IN</button>
 
 
 </form>
