@@ -64,7 +64,7 @@
 					</li>
 
 				<li>
-					<i class="fa fa-home fa-2x" aria-hidden="true"></i> &emsp;በጊዮን ሆቴል ዙሪያ
+					<i class="fa fa-home fa-2x" aria-hidden="true"></i> &emsp;Around Ghion
 					</li>
 				<li>
 				<i class="fa fa-phone fa-2x" aria-hidden="true"></i>
