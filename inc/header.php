@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>እናት - <?= $title; ?></title>
+<title>Enat - <?= $title; ?></title>
 
 <link rel="stylesheet" href="../resources/bootstrap.min.css">
 <link href="../resources/styles.css" rel="stylesheet" type="text/css">
