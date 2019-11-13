@@ -23,7 +23,7 @@ $resStatus = $conn->query("SELECT users.id AS userid, fname, lname, admin, reser
 
   else:
 
-  $none = "ምንም አይነት ምዝገባዎች የሉም.";
+  $none = "Reservations are Empty";
 
   endif;
 
@@ -69,7 +69,7 @@ $nameOfDay = date('D', strtotime($date));
 
     if ($day_chk->num_rows < 1):
 
-      $err_day = "ምግብ ቤቱን የመረጡት ቀን ተዘግቷል.";
+      $err_day = "Sorry, We are Closed on this Day";
 
     else:
   $resStatus = $conn->query("SELECT users.id AS userid, fname, lname, admin, reservations.id AS resid, table_id, reserved_for, people FROM users INNER JOIN reservations ON users.id=reserved_by INNER JOIN tables ON tables.id=table_id WHERE reserved_by=users.id AND reserved_for='$date' ORDER BY reserved_for");
@@ -89,7 +89,7 @@ $nameOfDay = date('D', strtotime($date));
 
   else:
 
-  $none = "ምንም አይነት ምዝገባዎች የሉም.";
+  $none = "Reservations are Empty";
 
   endif;
     endif;
