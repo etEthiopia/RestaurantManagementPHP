@@ -68,7 +68,7 @@
 					</li>
 				<li>
 				<i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-					&emsp;<a href="tel:+251923942288">+251 923 94 22 88</a>
+					&emsp;<a href="tel:+251937886725">+251 937 88 67 25</a>
 					</li>
 
 				<li>
@@ -79,7 +79,7 @@
 					<li>
 						<i class="fa fa-motorcycle fa-2x" aria-hidden="true">
 						</i>
-						&nbsp;<span class="font-weight-bold align-top"> የእኛ መደብር የማጓጓዣ አገልግሎት አለው. </span><br /> <span class="font-weight-bold text-center d-block pt-3">የማስረከቢያ ጊዜዎች:</span><br />  <span class="text-center d-block">በየቀኑ 21:00 - 00:00</span><br /><span class="text-center d-block">ቅዳሜ እና እሁድ 17:00 - 21:00</span>
+						&nbsp;<span class="font-weight-bold align-top"> We have Delivery </span><br /> <span class="font-weight-bold text-center d-block pt-3">የማስረከቢያ ጊዜዎች:</span><br />  <span class="text-center d-block">በየቀኑ 21:00 - 00:00</span><br /><span class="text-center d-block">Saturday and Sunday 17:00 - 21:00</span>
 					</li>
 				</ul>
 
