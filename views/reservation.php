@@ -14,19 +14,19 @@ require('../models/reservation.php');?>
 
   <div class="container pt-2 pb-5">
 
-      <h4 class="text-center pb-3">አዲስ ቀጠሮ ያሲዙ</h4>
+      <h4 class="text-center pb-3">Reserve New Spot</h4>
 
           <form id="dateform" name="dateform" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" class="d-block mr-auto ml-auto res-form">
 
 
   <div class="form-group">
-    <label for="date">ቀን ይምረጡ</label>
+    <label for="date">Choose Date</label>
     <input type="date" name="res_date" class="form-control" id="res_date" min="<?= date("Y-m-d"); ?>" required>
 
   </div>
 
 
-  <button type="submit" id="submit_date" name="submit_date" class="submit-btn btn btn-dark d-block mr-auto ml-auto">አማራጭ</button>
+  <button type="submit" id="submit_date" name="submit_date" class="submit-btn btn btn-dark d-block mr-auto ml-auto">Choice</button>
 </form>
 
 
@@ -63,8 +63,8 @@ require('../models/reservation.php');?>
           while ($row_tables = $tables->fetch_assoc()): ?>
 
           <div class="col-md-4 col-sm-4 col-xs-6 tables form-group mb-5">
-                <label class="btn btn-outline-success"><span class="tit">ቁጥር <?= $row_tables['id']; ?></span>
-                  <span class="d-block people">ሰዎች <?= $row_tables['people']; ?></span>
+                <label class="btn btn-outline-success"><span class="tit">Number <?= $row_tables['id']; ?></span>
+                  <span class="d-block people">Customers <?= $row_tables['people']; ?></span>
                   <input type="checkbox" name="table[]" autocomplete="off" value="<?= $row_tables['id']; ?>">
                   <span class="glyphicon glyphicon-ok d-block"></span>
                 </label>
@@ -79,8 +79,8 @@ require('../models/reservation.php');?>
                   while($row_all = $all->fetch_assoc()): ?>
 
                   <div class="col-md-4 col-sm-4 col-xs-6 tables form-group mb-5">
-                        <label class="btn btn-outline-success"><span class="tit">ቁጥር <?= $row_all['id']; ?></span>
-                          <span class="d-block people">ሰዎች <?= $row_all['people']; ?></span>
+                        <label class="btn btn-outline-success"><span class="tit">Number <?= $row_all['id']; ?></span>
+                          <span class="d-block people">Customers <?= $row_all['people']; ?></span>
                           <input type="checkbox" name="table[]" autocomplete="off" value="<?= $row_all['id']; ?>">
                           <span class="glyphicon glyphicon-ok d-block"></span>
                         </label>
