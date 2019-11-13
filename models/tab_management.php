@@ -10,10 +10,11 @@
 
     	$edit = $conn->query("UPDATE tables SET people=$edit_people WHERE id=$edit_id");
 
-    	if($edit===TRUE):
-    		$success = "የሰንጠረዥን ሰዎች መቀየር ተሳክቷል.";
+		if($edit===TRUE):
+			
+    		$success = "Tables Customer Number Changed Successfully";
     	else:
-    		$fail = "የሰንጠረዥን ሰዎችን መቀየር አልተሳካም.";
+    		$fail = "Tables Customer Number Changing was not Successful";
     	endif;
 
     else:
@@ -30,9 +31,9 @@ if(isset($_POST['add_tab'])):
 	$add = $conn->query("INSERT INTO tables (id, people) VALUES (NULL, $people_num)");
 
 	if($add===TRUE):
-		$success = "የሰንጠረዡን መጨመር ተሳክቷል.";
+		$success = "Adding Number on Table is Successful ";
 	else:
-		$fail = "የሰንጠረዡን መጨመር አልተሳካም.";
+		$fail = "Adding Number on Table is not Successful ";
 	endif;
 
 else:
@@ -49,9 +50,9 @@ if(isset($_POST['del_tab'])):
 	$delete = $conn->query("DELETE FROM tables WHERE id=$del");
 
 	if($delete===TRUE):
-		$success = "ሠንጠረዡን ማስወገድ የተሳካ ነበር.";
+		$success = "Successfuly Removed Table";
 	else:
-		$fail = "ሰንጠረዡን ማስወገድ አልተሳካም.";
+		$fail = "Table not Successfuly Removed.";
 	endif;
 
 else:
