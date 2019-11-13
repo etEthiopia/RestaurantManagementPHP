@@ -46,9 +46,9 @@
 
 				<h3 class="heading pt-5 pb-3">Welcome to Enat Restaurant</h3>
 
-			<p>እ.ኤ.አ. በ 2018 በአዲስ አበባ ውስጥ በሃበሾች የተፈጠረውን እናት ምግብ ቤት ለደንበኞች አገልግሎት መስጠት ጀምሯል።</p>
+			<p>First Opened in 2018 in Addis Ababa to provide quality Ethiopian Cultural Food</p>
 
-			<p>በሸቀጣችን ውስጥ በጣም ጥሩ ጣዕም ያላቸውን ምርቶች እንጠቀማለን እና በዚህም ምክንያት፣ የወቅቱ ምግቦች እንደ ወቅታዊ ምርቶች ይለዋወጣሉ፣ ነገር ግን በእርግጥ የእኛ ፈጣሪዎችን የፈጠራ መንፈስ፣ ባህልና ታዋቂነት፣ ጥንታዊ እና ዘመናዊ የፈረንሳይ ምግብን ያዘጋጃል። የምግብ አቅርቦቱን ያቀርባል ራዕይን ያሟላል፣ ግሩም ሽታዎችን እና የመጥመቂያ ቀለምን ያጣጥማል።</p>
+			<p>Our ingredients are fresh and clean, so quailty is not an issue here</p>
 
 			<p>እነዚህ የምግብ አሠራሮች በቴክሽናቱ መቼት በሚዘወተሩ የ "ላንድ ግራዎች ሠንጠረዦች" አባልነት የተገመገሙ ዘመናዊ አገልግሎት ሰጭ ቡድኖች ናቸው።</p>
 
