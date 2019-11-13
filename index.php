@@ -50,7 +50,7 @@
 
 			<p>Our ingredients are fresh and clean, so quailty is not an issue here</p>
 
-			<p>እነዚህ የምግብ አሠራሮች በቴክሽናቱ መቼት በሚዘወተሩ የ "ላንድ ግራዎች ሠንጠረዦች" አባልነት የተገመገሙ ዘመናዊ አገልግሎት ሰጭ ቡድኖች ናቸው።</p>
+			<p>This food tables are made with the involvement of customers</p>
 
 			</div>
 
