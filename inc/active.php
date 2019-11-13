@@ -8,17 +8,17 @@ $active = $comp[0];
 
 switch($active) {
 
-	case 'index' : $title = 'ቤት';
+	case 'index' : $title = 'HOME';
 		break;
-	case 'login' : $title = 'ግባ';
+	case 'login' : $title = 'LOG IN';
 		break;
-	case 'register' : $title = 'መዝግብ';
+	case 'register' : $title = 'REGISTER';
 		break;
-	case 'reservation' : $title = 'አዲስ ቦታ ማስያዝ';
+	case 'reservation' : $title = 'RESERVE A SPOT';
 		break;
-	case 'dashboard' : $title = 'የመጠለያ ሁኔታ';
+	case 'dashboard' : $title = 'DASHBOARD';
 			break;
-	case 'management' : $title = 'የቅበላ አስተዳደርt';
+	case 'management' : $title = 'MANAGEMENT';
 				break;
 	default : $title = '';
 
