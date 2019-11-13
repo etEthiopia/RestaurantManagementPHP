@@ -39,7 +39,7 @@
     <?php elseif(isset($_SESSION['admin']) && $_SESSION['admin']==1): ?>
       <li class="nav-item dropdown <?php if (($active=='dashboard') || ($active=='management')) { echo "active"; } ?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          አስተዳደር
+          MANAGEMENT
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="../admin/dashboard.php">WAITING LIST</a>
