@@ -28,24 +28,24 @@
     <?php  if(isset($_SESSION['admin']) && $_SESSION['admin']==0): ?>
   	<li class="nav-item dropdown <?php if (($active=='reservation') || ($active=='history')) { echo "active"; } ?>">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        ቦታ ማስያዝ
+        RESERVE A SPOT
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="views/reservation.php">አዲስ ቦታ ማስያዝ</a>
-          <a class="dropdown-item" href="views/history.php">የቆዩ ቦታዎች</a>
+          <a class="dropdown-item" href="views/reservation.php">NEW RESERVATION</a>
+          <a class="dropdown-item" href="views/history.php">DONE RESERVATIONS</a>
         </div>
       </li>
 
     <?php elseif(isset($_SESSION['admin']) && $_SESSION['admin']==1): ?>
       <li class="nav-item dropdown <?php if (($active=='dashboard') || ($active=='management')) { echo "active"; } ?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          አስተዳደር
+          MANAGEMENT
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="admin/dashboard.php">የመጠባበቂያ ሁኔታ</a>
-            <a class="dropdown-item" href="admin/tab_management.php">ጠረጴዛን ማስተዳደር</a>
-            <a class="dropdown-item" href="admin/date_management.php">የጊዜ ማኔጅመንት</a>
-            <a class="dropdown-item" href="admin/admin_reservations.php">የአስተዳደር መጠባበቂያ</a>
+            <a class="dropdown-item" href="admin/dashboard.php">WAITING LIST</a>
+            <a class="dropdown-item" href="admin/tab_management.php">MANAGING TABLES</a>
+            <a class="dropdown-item" href="admin/date_management.php">MANAGING HOURS</a>
+            <a class="dropdown-item" href="admin/admin_reservations.php">MANAGEMENT SETTINGS</a>
           </div>
         </li>
     <?php  endif; ?>
@@ -57,7 +57,7 @@
               <?= $_SESSION['fname']; ?>&nbsp;<?= $_SESSION['lname']; ?>
             </a>
             <div class="dropdown-menu" aria-labelledby="LogoutDropdown">
-              <a class="dropdown-item" href="views/logout.php">ዘግተው ይውጡ</a>
+              <a class="dropdown-item" href="views/logout.php">LOG OUT</a>
 
             </div>
           </li>
