@@ -7,19 +7,19 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto mr-auto">
       <li class="nav-item <?php if ($active=='index') { echo "active"; } ?>">
-        <a class="nav-link" href="index.php">ቤት<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">HOME<span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item dropdown <?php if (($active=='login') || ($active=='register')) { echo "active"; } ?>">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        መለያ
+        ACCOUNT
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <?php  if(isset($_SESSION['admin'])): ?>
-                <a class="dropdown-item" href="../views/logout.php">ዘግተው ይውጡ</a>
+                <a class="dropdown-item" href="../views/logout.php">LOG OUT</a>
           <?php  else: ?>
-          <a class="dropdown-item" href="views/login.php">በመለያ ግባ</a>
-          <a class="dropdown-item" href="views/register.php">መዝግብ</a>
+          <a class="dropdown-item" href="views/login.php">LOG IN</a>
+          <a class="dropdown-item" href="views/register.php">REGISTER</a>
         <?php  endif; ?>
 
         </div>
