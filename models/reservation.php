@@ -12,9 +12,9 @@ $newres = $conn->query("INSERT INTO reservations (id, table_id, reserved_by, res
 endforeach;
 
 if($newres===TRUE):
-        $success = "ቦታ ማስያዝዎ ተሳክቷል። እናመሰግናለን።";
+        $success = "Reservation Successful, Thank You";
       else:
-        $fail = "ቦታ ማስያዝዎ አልተሳካም። እባክዎን ከንደገና ይሞክሩ።";
+        $fail = "Reservation not Successful, Please Try Again";
       endif;
 endif;
 ?>
