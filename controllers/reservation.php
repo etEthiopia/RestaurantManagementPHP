@@ -36,7 +36,7 @@ $nameOfDay = date('D', strtotime($date));
 
     if ($day_chk->num_rows < 1):
 
-      $err_day = "ምግብ ቤቱ በመረጡት ቀን ተዘግቷል.";
+      $err_day = "Sorry, We are Closed on this Day";
 
     endif;
 
