@@ -17,7 +17,7 @@ require('../models/tab_management.php');?>
 <div class="container pt-2 pb-5">
 
 
-<h4 class="text-center pb-3">የጠረጴዛዎች አያያዝ</h4>
+<h4 class="text-center pb-3">Table Management</h4>
 
 <?php   if(isset($success) ): ?>
 
@@ -43,11 +43,11 @@ require('../models/tab_management.php');?>
 
 <tr>
 
-<th scope="col">የጠረጴዛ ኮድ</th>
-<th scope="col">የሰዎች ቁጥር</th>
-<th scope="col">የአቋም መግለጫ ቅየሳ</th>
-<th scope="col">ጠረጴዛን ማስጨመር</th>
-<th scope="col">የጠረጴዛን አያያዝ</th>
+<th scope="col">Table Code</th>
+<th scope="col">Seats</th>
+<th scope="col">Edit Seats</th>
+<th scope="col">Add Table</th>
+<th scope="col">Table Management</th>
 </tr>
 
 </thead>
