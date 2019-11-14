@@ -16,18 +16,18 @@ if(isset($_POST['date_upd'])):
 
           $d_update = $conn->query("UPDATE hours SET opened_at='$opening_upd', closed_at='$closing_upd' WHERE day_id='$day_id'");
               if($d_update===TRUE):
-            		$success = "ክፍት የስራ ሰዓቶች መቀየር ተሳክቷል.";
+            		$success = "Changing Opeing Hours is Successful";
             	else:
-            		$fail = "የስራ ሰዓታት ማስተካከል አልተሳካም.";
+            		$fail = "Changing Opeing Hours is not Successful";
             	endif;
 
       else:
 
         $d_edit = $conn->query("INSERT INTO hours (id, opened_at, closed_at, day_id) VALUES (NULL, '$opening_upd', '$closing_upd', $day_id)");
             if($d_edit===TRUE):
-              $success = "ክፍት የስራ ሰዓቶች መቀየር ተሳክቷል..";
-            else:
-              $fail = "የስራ ሰዓታት ማስተካከል አልተሳካም.";
+              $success = "Changing Opeing Hours is Successful";
+            	else:
+            		$fail = "Changing Opeing Hours is not Successful";
             endif;
 
       endif;
@@ -44,9 +44,9 @@ if(isset($_POST['day_close'])):
     $del = $conn->query("DELETE FROM hours WHERE day_id=$day_close");
 
               if($del===TRUE):
-            		$success = "የበዓል ቀንን መቀየር ተሳክቷል.";
+            		$success = "Changing Holiday is Successful";
             	else:
-            		$fail = "የበዓል ቀን መቀየር አልተሳካም.";
+            		$fail = "Changing Holiday is not Successful";
             	endif;
 
 endif;
