@@ -6,7 +6,7 @@
         if($_REQUEST['password']!=$_REQUEST['confirm']):
 
 
-   $error_conf="ለመሳተፍ ምንም አልሞክርም. ተጨማሪ መረጃዎችን ይቃኙ.";
+   $error_conf="Don't want to Register? Explore More Options";
 
 
         else:
@@ -17,14 +17,14 @@
 
 			// check if e-mail address is well-formed
 			if (!filter_var($email, FILTER_VALIDATE_EMAIL)):
-				$error_email = "To email ያልተፈለጉትን ያክላል.";
+				$error_email = "To email not valid.";
 			else:
 				// check if email already exists in the database
 
 				$query = $conn->query("SELECT * FROM users WHERE email='$email'");
 
 				if ($query->num_rows > 0):
-          $_SESSION['message'] = "እርስዎ ቀደም ሲል የተመዘገበ ተጠቃሚ ነዎት. መግባት ይችላሉ.";
+          $_SESSION['message'] = "Already a customer before";
 					header("location: login.php");
 				else:
 
@@ -48,12 +48,12 @@
 
                 		if($insert===TRUE):
 
-                  			$_SESSION['message'] = "ምዝገባዎ የተሳካ ነበር. መግባት ይችላሉ.";
+                  			$_SESSION['message'] = "Successfuly Registered, You can now Log In";
                   					header("location: login.php");
 
                 		elseif($insert===FALSE):
 
-                  	 		$fail = "ምዝገባዎ አልተሳካም. እባክዎ ዳግም ይሞክሩ.";
+                  	 		$fail = "Unsuccessful Registration, Please Try Again";
 
                 		endif;
 
@@ -64,18 +64,18 @@
                         $adminpass = stripslashes($_REQUEST['adminpass']);
                         $adminpass = mysqli_real_escape_string($conn,$adminpass);
                             if ($adminpass!="admin"):
-                              $error_adminpass = "ያቀረቡት የአስተዳዳሪ የይለፍ ቃል የተሳሳተ ነው. እባክዎ ትክክለኛውን ኮድ ያስገቡ.";
+                              $error_adminpass = "Password Incorrect";
                             else:
                                 $insert = $conn->query("INSERT INTO users (id, fname, lname, email, password, mobile, admin, created_at) VALUES (NULL, '$fname', '$lname', '$email', '$password', '$mobile', $admin, now())");
 
                                     if($insert===TRUE):
 
-                                        $_SESSION['message'] = "ምዝገባዎ የተሳካ ነበር. መግባት ይችላሉ.";
+                                        $_SESSION['message'] = "Successfuly Registered, You can now Log In.";
                                         header("location: login.php");
 
                                     elseif($insert===FALSE):
 
-                                        $fail = "ምዝገባዎ አልተሳካም. እባክዎ ዳግም ይሞክሩ.";
+                                        $fail = "Unsuccessful Registration, Please Try Again";
 
                                     endif; // if($insert===TRUE):
 
