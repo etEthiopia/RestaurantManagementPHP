@@ -7,8 +7,8 @@
           while ($row_tables = $tables->fetch_assoc()): ?>
 
           <div class="col-md-4 col-sm-4 col-xs-6 tables form-group mb-5">
-                <label class="btn btn-outline-success"><span class="tit">ቁጥር <?= $row_tables['id']; ?></span>
-                  <span class="d-block people">አቅም <?= $row_tables['people']; ?></span>
+                <label class="btn btn-outline-success"><span class="tit">Number <?= $row_tables['id']; ?></span>
+                  <span class="d-block people">Seats <?= $row_tables['people']; ?></span>
                   <input type="checkbox" name="table[]" autocomplete="off" value="<?= $row_tables['id']; ?>">
                   <span class="glyphicon glyphicon-ok d-block"></span>
                 </label>
@@ -23,8 +23,8 @@
                   while($row_all = $all->fetch_assoc()): ?>
 
                   <div class="col-md-4 col-sm-4 col-xs-6 tables form-group mb-5">
-                        <label class="btn btn-outline-success"><span class="tit">ቁጥር <?= $row_all['id']; ?></span>
-                          <span class="d-block people">አቅም <?= $row_all['people']; ?></span>
+                        <label class="btn btn-outline-success"><span class="tit">Number <?= $row_all['id']; ?></span>
+                          <span class="d-block people">Seats <?= $row_all['people']; ?></span>
                           <input type="checkbox" name="table[]" autocomplete="off" value="<?= $row_all['id']; ?>">
                           <span class="glyphicon glyphicon-ok d-block"></span>
                         </label>
