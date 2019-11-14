@@ -12,9 +12,9 @@ $admin_res1 = $conn->query("INSERT INTO reservations (id, table_id, reserved_by,
 endforeach;
 
 if($admin_res1===TRUE):
-        $success = "የአስተዳዳሪ መዝገብ ማጠናከሪያ በተሳካ ሁኔታ ተቀምጧል.";
+        $success = "Successfuly Registered";
       else:
-        $fail = "የአቀናባሪ መዝገብ አያያዝ አልተሳካም.";
+        $fail = "Registeration not Successful";
       endif;
 endif;
 ?>
