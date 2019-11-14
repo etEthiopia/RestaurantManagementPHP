@@ -12,7 +12,7 @@
 
   <div class="container pt-2 pb-5">
 
-<h4 class="text-center pb-3">የአስተዳደር መጠባበቂያ</h4>
+<h4 class="text-center pb-3">Management Settings</h4>
 
           <form id="dateform" name="dateform" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" class="d-block mr-auto ml-auto res-form">
 
@@ -24,7 +24,7 @@
   </div>
 
 
-  <button type="submit" id="submit_date" name="submit_date" class="submit-btn btn btn-dark d-block mr-auto ml-auto">አስገባ</button>
+  <button type="submit" id="submit_date" name="submit_date" class="submit-btn btn btn-dark d-block mr-auto ml-auto">Submit</button>
 </form>
 
 
@@ -58,7 +58,7 @@ require("../controllers/table_controller.php");?>
 <div class="col-md-10 offset-md-1">
  
 
-  <button type="submit" id="submit_table" name="submit_table" class="submit-btn btn btn-dark d-block mr-auto ml-auto">መጠባበቂያ</button>
+  <button type="submit" id="submit_table" name="submit_table" class="submit-btn btn btn-dark d-block mr-auto ml-auto">Reserve</button>
 
 </div>
 
