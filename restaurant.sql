@@ -40,13 +40,13 @@ CREATE TABLE IF NOT EXISTS `days` (
 --
 
 INSERT INTO `days` (`id`, `day_name`) VALUES
-(1, 'ሰኞ'),
-(2, 'ማክሰኞ'),
-(3, 'ረቡዕ'),
-(4, 'ሀሙስ'),
-(5, 'አርብ'),
-(6, 'ቅዳሜ'),
-(7, 'እሁድ');
+(1, 'Monday'),
+(2, 'Tuesday'),
+(3, 'Wednesday'),
+(4, 'Thursday'),
+(5, 'Friday'),
+(6, 'Saturday'),
+(7, 'Sunday');
 
 -- --------------------------------------------------------
 
