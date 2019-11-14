@@ -33,7 +33,7 @@ session_start();
 
 
 			else:
-				$fail = "ኢሜይል ለመላክ እና / ወይም የይለፍ ቃልዎ ትክክል አይደለም. እንደገና ይሞክሩ.";
+				$fail = "Email or Password is not Correct";
 
 			endif;
 
