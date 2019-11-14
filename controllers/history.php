@@ -18,7 +18,7 @@ $old = $conn->query("SELECT fname, lname, table_id, reserved_for, people FROM us
 
 else:
 
-	$none = "ከዚህ በፊት ቦታ አልያዙም.";
+	$none = "Didn't Reserve a Spot Before";
 
 endif;
 
