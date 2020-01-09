@@ -44,7 +44,7 @@
 
 				<center><img src="images/Web-logo-Ena3.png" width="324" height="187" alt=""/> </center>
 
-				<h3 class="heading pt-5 pb-3">እንኳን ወደ እናት ምግብ ቤት በሰላም መጡ። </h3>
+				<h3 class="heading pt-5 pb-3">Welcome to Enat Restaurant</h3>
 
 			<p>እ.ኤ.አ. በ 2018 በአዲስ አበባ ውስጥ በሃበሾች የተፈጠረውን እናት ምግብ ቤት ለደንበኞች አገልግሎት መስጠት ጀምሯል።</p>
 
